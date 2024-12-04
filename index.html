@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Photo Editor</h1>
+      <!-- Canvas for Image Editing -->
+      <canvas id="myCanvas" width="200" height="300"></canvas>
+      <button id="imgEditBtn" onclick="editButton()">Edit</button>
+      <!--  Tools to edit the images -->
+      <div class="tools">
+        <!-- Brightness -->
+        <div class="brightness">
+          <label for="brightness" onclick="showBrightness()">Brigtness</label>
+        </div>
+        <br />
+        <input
+          type="range"
+          name="brigtness"
+          id="brightnessBar"
+          min="100"
+          max="140"
+          value="0"
+        />
+        <!-- Contrast -->
+        <div class="contrast">
+          <label for="contrast" onclick="showContrast()">Contrast</label>
+        </div>
+        <br />
+        <input
+          type="range"
+          name="contrast"
+          id="contrastBar"
+          min="100"
+          max="140"
+          value="0"
+        />
+        <!-- saturation -->
+        <div class="saturation">
+          <label for="saturation" onclick="showSaturation()">Saturation</label>
+        </div>
+        <input
+          type="range"
+          name="saturation"
+          id="saturationBar"
+          min="1"
+          max="10"
+          value="0"
+        />
+        <!-- exposure -->
+        <div class="exposure">
+          <label for="exposure" onclick="showExposure()">Exposure</label>
+        </div>
+        <input
+          type="range"
+          name="exposure"
+          id="exposureBar"
+          min="0"
+          max="100"
+          value="0"
+        />
+        <!-- Blur -->
+        <div class="blur">
+          <label for="blur" onclick="showBlur()">Blur</label>
+        </div>
+        <input
+          type="range"
+          name="blur"
+          id="blurBar"
+          min="0"
+          max="100"
+          value="0"
+        />
+      </div>
+      <!-- display counter with the use of input range -->
+      <div class="counter">
+        <span id="number" >0</span>
+      </div>
+      <!-- Controls for Image Adjustments -->
+      <div class="controls">
+        <!-- Image Upload -->
+        <input
+          type="file"
+          name="file"
+          id="imageLoader"
+          accept="image/*"
+          placeholder="button"
+        />
+        <label for="imageLoader">
+          <i class="fa-duotone fa-solid fa-arrow-up-from-bracket"></i>
+        </label>
+        <button id="saveImageBtn" onclick="saveImage()">Save</button>
+      </div>
+      <div class="transations"></div>
+    </div>
+    <!--     <span>Designed by Shubho R</span> -->
+    <script src="script.js"></script>
+  </body>
+</html>
