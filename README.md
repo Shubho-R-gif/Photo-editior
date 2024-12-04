@@ -30,5 +30,5 @@ A sleek and user-friendly **Photo Editor** to unleash your creativity! Transform
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](MIT-License) file for details.
+This project is licensed under the MIT License - see the [LICENSE](MIT-LICENSE) file for details.
 
