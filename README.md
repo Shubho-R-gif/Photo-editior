@@ -18,7 +18,7 @@ A sleek and user-friendly **Photo Editor** to unleash your creativity! Transform
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)    |
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)    
 
 
 ---
@@ -29,4 +29,6 @@ A sleek and user-friendly **Photo Editor** to unleash your creativity! Transform
 ** Customize your photo and save it to your device.
 
 ## License
-This project is licensed under the MIT License. Feel free to use, modify, and share!
+
+This project is licensed under the MIT License - see the [LICENSE](MIT-License) file for details.
+
