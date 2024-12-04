@@ -23,10 +23,10 @@ A sleek and user-friendly **Photo Editor** to unleash your creativity! Transform
 
 ---
 
-## How to Use:
-** Upload your image.
-** Select the desired editing tools.
-** Customize your photo and save it to your device.
+## How to Use
+-- Upload your image.
+-- Select the desired editing tools.
+-- Customize your photo and save it to your device.
 
 ## License
 
