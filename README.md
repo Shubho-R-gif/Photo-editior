@@ -24,9 +24,9 @@ A sleek and user-friendly **Photo Editor** to unleash your creativity! Transform
 ---
 
 ## How to Use
--- Upload your image.
--- Select the desired editing tools.
--- Customize your photo and save it to your device.
+1. Upload your image.
+2. Select the desired editing tools.
+3. Customize your photo and save it to your device.
 
 ## License
 
